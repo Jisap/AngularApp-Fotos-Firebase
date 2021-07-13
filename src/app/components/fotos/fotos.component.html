@@ -1,0 +1,16 @@
+
+    
+        <div class="row row-cols-3">
+            <div class="card" *ngFor="let item of item$ | async">
+                <img [src]="item.url" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">{{ item.nombre }}</h5>
+                    
+                </div>
+            </div>
+    
+        </div>
+    
+
+
+
